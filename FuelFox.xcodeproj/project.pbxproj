@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6ABA614055C217E11ACC410F /* Pods_FuelFox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE626B7833329725CD34123 /* Pods_FuelFox.framework */; };
+		7A35A8A91DA9C777005D089B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A35A8A71DA9C777005D089B /* Main.storyboard */; };
+		7A47C5331DB01CE9001A4B2E /* OdometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47C5321DB01CE9001A4B2E /* OdometerViewController.swift */; };
+		7AB9CDEA1D94886C00755F62 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CDE91D94886C00755F62 /* SettingsViewController.swift */; };
 		7ABEEF541D7A2BB400FDBC0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEEF531D7A2BB400FDBC0C /* AppDelegate.swift */; };
 		7ABEEF561D7A2BB400FDBC0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEEF551D7A2BB400FDBC0C /* ViewController.swift */; };
-		7ABEEF591D7A2BB400FDBC0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABEEF571D7A2BB400FDBC0C /* Main.storyboard */; };
 		7ABEEF5B1D7A2BB400FDBC0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABEEF5A1D7A2BB400FDBC0C /* Assets.xcassets */; };
 		7ABEEF5E1D7A2BB400FDBC0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABEEF5C1D7A2BB400FDBC0C /* LaunchScreen.storyboard */; };
+		7ADDC0A11DAD77C100F7917E /* DeviceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADDC0A01DAD77C100F7917E /* DeviceDetailViewController.swift */; };
+		7ADDC0A31DAD822700F7917E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADDC0A21DAD822700F7917E /* MapKit.framework */; };
+		7AF761BD1DB926D800A5EB1A /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF761BC1DB926D800A5EB1A /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DE626B7833329725CD34123 /* Pods_FuelFox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuelFox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A35A8A81DA9C777005D089B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A47C5321DB01CE9001A4B2E /* OdometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OdometerViewController.swift; sourceTree = "<group>"; };
+		7AB9CDE91D94886C00755F62 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7ABEEF501D7A2BB400FDBC0C /* FuelFox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelFox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABEEF531D7A2BB400FDBC0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ABEEF551D7A2BB400FDBC0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7ABEEF581D7A2BB400FDBC0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ABEEF5A1D7A2BB400FDBC0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ABEEF5D1D7A2BB400FDBC0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ABEEF5F1D7A2BB400FDBC0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADDC0A01DAD77C100F7917E /* DeviceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDetailViewController.swift; sourceTree = "<group>"; };
+		7ADDC0A21DAD822700F7917E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7AF761BC1DB926D800A5EB1A /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		9308E29990218E187BC38EFA /* Pods-FuelFox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelFox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FuelFox/Pods-FuelFox.debug.xcconfig"; sourceTree = "<group>"; };
+		98F349C6A70AEC6F6936BF4F /* Pods-FuelFox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelFox.release.xcconfig"; path = "Pods/Target Support Files/Pods-FuelFox/Pods-FuelFox.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ADDC0A31DAD822700F7917E /* MapKit.framework in Frameworks */,
+				6ABA614055C217E11ACC410F /* Pods_FuelFox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0628E75442953CCBBB2ADDC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ADDC0A21DAD822700F7917E /* MapKit.framework */,
+				5DE626B7833329725CD34123 /* Pods_FuelFox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7ABEEF471D7A2BB400FDBC0C = {
 			isa = PBXGroup;
 			children = (
 				7ABEEF521D7A2BB400FDBC0C /* FuelFox */,
 				7ABEEF511D7A2BB400FDBC0C /* Products */,
+				A6CE43D6BE3D8D7616B59876 /* Pods */,
+				0628E75442953CCBBB2ADDC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,27 @@
 		7ABEEF521D7A2BB400FDBC0C /* FuelFox */ = {
 			isa = PBXGroup;
 			children = (
+				7A35A8A71DA9C777005D089B /* Main.storyboard */,
+				7ABEEF5C1D7A2BB400FDBC0C /* LaunchScreen.storyboard */,
 				7ABEEF531D7A2BB400FDBC0C /* AppDelegate.swift */,
 				7ABEEF551D7A2BB400FDBC0C /* ViewController.swift */,
-				7ABEEF571D7A2BB400FDBC0C /* Main.storyboard */,
+				7AB9CDE91D94886C00755F62 /* SettingsViewController.swift */,
+				7AF761BC1DB926D800A5EB1A /* MyTableViewCell.swift */,
+				7ADDC0A01DAD77C100F7917E /* DeviceDetailViewController.swift */,
+				7A47C5321DB01CE9001A4B2E /* OdometerViewController.swift */,
 				7ABEEF5A1D7A2BB400FDBC0C /* Assets.xcassets */,
-				7ABEEF5C1D7A2BB400FDBC0C /* LaunchScreen.storyboard */,
 				7ABEEF5F1D7A2BB400FDBC0C /* Info.plist */,
 			);
 			path = FuelFox;
+			sourceTree = "<group>";
+		};
+		A6CE43D6BE3D8D7616B59876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9308E29990218E187BC38EFA /* Pods-FuelFox.debug.xcconfig */,
+				98F349C6A70AEC6F6936BF4F /* Pods-FuelFox.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ABEEF621D7A2BB400FDBC0C /* Build configuration list for PBXNativeTarget "FuelFox" */;
 			buildPhases = (
+				91B5635256351AE513FC352C /* Check Pods Manifest.lock */,
 				7ABEEF4C1D7A2BB400FDBC0C /* Sources */,
 				7ABEEF4D1D7A2BB400FDBC0C /* Frameworks */,
 				7ABEEF4E1D7A2BB400FDBC0C /* Resources */,
+				6997181016203374713C3F7A /* Embed Pods Frameworks */,
+				79AD5C006BC5D6AAB54D051C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,13 +168,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35A8A91DA9C777005D089B /* Main.storyboard in Resources */,
 				7ABEEF5E1D7A2BB400FDBC0C /* LaunchScreen.storyboard in Resources */,
 				7ABEEF5B1D7A2BB400FDBC0C /* Assets.xcassets in Resources */,
-				7ABEEF591D7A2BB400FDBC0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6997181016203374713C3F7A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuelFox/Pods-FuelFox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79AD5C006BC5D6AAB54D051C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuelFox/Pods-FuelFox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91B5635256351AE513FC352C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7ABEEF4C1D7A2BB400FDBC0C /* Sources */ = {
@@ -139,17 +230,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ABEEF561D7A2BB400FDBC0C /* ViewController.swift in Sources */,
+				7ADDC0A11DAD77C100F7917E /* DeviceDetailViewController.swift in Sources */,
 				7ABEEF541D7A2BB400FDBC0C /* AppDelegate.swift in Sources */,
+				7A47C5331DB01CE9001A4B2E /* OdometerViewController.swift in Sources */,
+				7AB9CDEA1D94886C00755F62 /* SettingsViewController.swift in Sources */,
+				7AF761BD1DB926D800A5EB1A /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7ABEEF571D7A2BB400FDBC0C /* Main.storyboard */ = {
+		7A35A8A71DA9C777005D089B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7ABEEF581D7A2BB400FDBC0C /* Base */,
+				7A35A8A81DA9C777005D089B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -256,6 +351,7 @@
 		};
 		7ABEEF631D7A2BB400FDBC0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9308E29990218E187BC38EFA /* Pods-FuelFox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FuelFox/Info.plist;
@@ -268,6 +364,7 @@
 		};
 		7ABEEF641D7A2BB400FDBC0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F349C6A70AEC6F6936BF4F /* Pods-FuelFox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FuelFox/Info.plist;
@@ -297,6 +394,7 @@
 				7ABEEF641D7A2BB400FDBC0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

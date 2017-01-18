@@ -1,0 +1,6 @@
+framework module Pods_FuelFox {
+  umbrella header "Pods-FuelFox-umbrella.h"
+
+  export *
+  module * { export * }
+}
